@@ -1,0 +1,47 @@
+
+body {
+    margin: 10px;
+    padding: 0px;
+    background-color: #d4d4d4 ;
+    font-family: 'Raleway', 'Arial';
+    font-size: 16px;
+    width: 100%;
+    overflow-x:scroll;
+}
+
+#trafficLight {
+    background-color: #000;
+    box-shadow: 0 0 5px;
+    overflow: hidden;
+    padding: 0 0 4px;
+    width: 40px;
+
+}
+
+#trafficLight span {
+    border-radius: 50px;
+    display: block;
+    height: 30px;
+    margin: 4px auto 0;
+    opacity: .25;
+    width: 30px;
+}
+
+#green {
+    background-color: lawngreen;
+}
+
+#red {
+    background-color: red;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#trafficLight span.active {
+    opacity: 1;
+}
+
+#trafficLight #red.active    { box-shadow: 0 0 10px red; }
+#trafficLight #green.active  { box-shadow: 0 0 10px lawngreen; }

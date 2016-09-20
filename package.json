@@ -1,0 +1,29 @@
+{
+  "name": "leeroy-jenkins",
+  "version": "1.0.0",
+  "description": "Jenkins monitoring",
+  "main": "server.js",
+  "dependencies": {
+    "browserify": "^12.0.1",
+    "express": "^4.12.4",
+    "jasmine": "^2.4.1",
+    "jenkins": "^0.10.1",
+    "jquery": "^2.1.4",
+    "path": "^0.11.14",
+    "say": "^0.6.0",
+    "serve-static": "^1.9.3"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.tm.tmcs/david.magill/leeroy-jenkins.git"
+  },
+  "author": "David Magill",
+  "license": "MIT"
+}
